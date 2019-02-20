@@ -9,6 +9,7 @@ public:
 	//与socket相关的变量初始化
 	void server_init(void);
 	void server_run(void);
+
 private:
 	struct mg_mgr mgr;
 	struct mg_connection *nc;

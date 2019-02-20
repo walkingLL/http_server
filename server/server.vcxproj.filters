@@ -10,6 +10,9 @@
     <Filter Include="include">
       <UniqueIdentifier>{51334916-e525-490d-aa25-5963c0513b09}</UniqueIdentifier>
     </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{46cc6390-ca7e-4671-b66e-c67a4f1cd3df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\imgSvr.cpp">
@@ -21,12 +24,21 @@
     <ClCompile Include="..\thirdparty\mongoose.c">
       <Filter>thirdparty</Filter>
     </ClCompile>
+    <ClCompile Include="..\test\cjsonTest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\cJSON.c">
+      <Filter>thirdparty</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\imgSvr.h">
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="..\thirdparty\mongoose.h">
+      <Filter>thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\cJSON.h">
       <Filter>thirdparty</Filter>
     </ClInclude>
   </ItemGroup>

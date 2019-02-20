@@ -120,10 +120,13 @@
   <ItemGroup>
     <ClCompile Include="..\src\imgSvr.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\test\cjsonTest.cpp" />
+    <ClCompile Include="..\thirdparty\cJSON.c" />
     <ClCompile Include="..\thirdparty\mongoose.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\imgSvr.h" />
+    <ClInclude Include="..\thirdparty\cJSON.h" />
     <ClInclude Include="..\thirdparty\mongoose.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
